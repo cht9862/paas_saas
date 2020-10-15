@@ -1,0 +1,1 @@
+此目录用于放置官方插件包，将插件包放置于此目录下，执行`./bin/manange.py init_officail_plugin`

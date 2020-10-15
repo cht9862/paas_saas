@@ -1,0 +1,16 @@
+export const AGENT_VIEW = 'agent_view'
+export const AGENT_OPERATE = 'agent_operate'
+export const CLOUD_CREATE = 'cloud_create'
+export const CLOUD_EDIT = 'cloud_edit'
+export const CLOUD_DELETE = 'cloud_delete'
+export const CLOUD_VIEW = 'cloud_view'
+export const PROXY_OPERATE = 'proxy_operate'
+export const PLUGIN_VIEW = 'plugin_view'
+export const PLUGIN_OPERATE = 'plugin_operate'
+export const TASK_HISTORY_VIEW = 'task_history_view'
+export const AP_CREATE = 'ap_create'
+export const AP_DELETE = 'ap_delete'
+export const AP_EDIT = 'ap_edit'
+export const AP_VIEW = 'ap_view'
+
+

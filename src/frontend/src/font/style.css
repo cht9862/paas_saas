@@ -1,0 +1,223 @@
+@font-face {
+	font-family: "nodeman";
+	src: url("fonts/iconcool.svg#iconcool") format("svg"),
+url("fonts/iconcool.ttf") format("truetype"),
+url("fonts/iconcool.woff") format("woff"),
+url("fonts/iconcool.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nodeman-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'nodeman' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  text-align: center;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nc-alicloud:before {
+	content: "\ef2b";
+}
+.nc-aws:before {
+	content: "\ef2c";
+}
+.nc-tencentcould:before {
+	content: "\ef2d";
+}
+.nc-back-left:before {
+	content: "\efcd";
+}
+.nc-tips-fill:before {
+	content: "\efce";
+}
+.nc-tips:before {
+	content: "\efcf";
+}
+.nc-plus:before {
+	content: "\efd0";
+}
+.nc-minus:before {
+	content: "\efd1";
+}
+.nc-delete:before {
+	content: "\efd2";
+}
+.nc-arrow-left:before {
+	content: "\efd3";
+}
+.nc-arrow-right:before {
+	content: "\efd4";
+}
+.nc-setting:before {
+	content: "\efdc";
+}
+.nc-double-up:before {
+	content: "\efdd";
+}
+.nc-increase:before {
+	content: "\f059";
+}
+.nc-increase-2:before {
+	content: "\f05b";
+}
+.nc-filter-fill:before {
+	content: "\f05d";
+}
+.nc-loading:before {
+	content: "\f064";
+}
+.nc-key:before {
+	content: "\f065";
+}
+.nc-loading-2:before {
+	content: "\f066";
+}
+.nc-arrow-down:before {
+	content: "\f067";
+}
+.nc-bulk-edit:before {
+	content: "\f068";
+}
+.nc-azure:before {
+	content: "\f071";
+}
+.nc-huaweicloud:before {
+	content: "\f072";
+}
+.nc-googlecloudplatform:before {
+	content: "\f073";
+}
+.nc-salesforce:before {
+	content: "\f074";
+}
+.nc-oraclecloud:before {
+	content: "\f075";
+}
+.nc-ibmcloud:before {
+	content: "\f076";
+}
+.nc-ecloud:before {
+	content: "\f077";
+}
+.nc-export:before {
+	content: "\f078";
+}
+.nc-u-cloud:before {
+	content: "\f079";
+}
+.nc-meituanopenservices:before {
+	content: "\f07a";
+}
+.nc-ksyun:before {
+	content: "\f07b";
+}
+.nc-baiducloud:before {
+	content: "\f07c";
+}
+.nc-upload-cloud:before {
+	content: "\f080";
+}
+.nc-excel:before {
+	content: "\f081";
+}
+.nc-check-small:before {
+	content: "\f083";
+}
+.nc-retry:before {
+	content: "\f084";
+}
+.nc-arrow-up:before {
+	content: "\f08d";
+}
+.nc-icon-edit-2:before {
+	content: "\f094";
+}
+.nc-delete-2:before {
+	content: "\f095";
+}
+.nc-icon-export:before {
+	content: "\f0ab";
+}
+.nc-icon-full-screen:before {
+	content: "\f0ac";
+}
+.nc-icon-un-full-screen:before {
+	content: "\f0ad";
+}
+.nc-icon-topping-fill:before {
+	content: "\f0ae";
+}
+.nc-icon-control-fill:before {
+	content: "\f0b2";
+}
+.nc-jump-link:before {
+	content: "\f0bd";
+}
+.nc-icon-environment:before {
+	content: "\f0c7";
+}
+.nc-icon-bottom-fill:before {
+	content: "\f0c8";
+}
+.nc-discover:before {
+	content: "\f1a0";
+}
+.nc-icon-excel-fill:before {
+	content: "\f1a1";
+}
+.nc-install:before {
+	content: "\f1a3";
+}
+.nc-package:before {
+	content: "\f1a4";
+}
+.nc-state:before {
+	content: "\f1a5";
+}
+.nc-upload-2:before {
+	content: "\f1a6";
+}
+.nc-icon-audit:before {
+	content: "\f235";
+}
+.nc-copy:before {
+	content: "\f248";
+}
+.nc-help-document-fill:before {
+	content: "\f288";
+}
+.nc-remind-fill:before {
+	content: "\fd73";
+}
+.nc-export2:before {
+	content: "\fe19";
+}
+.nc-qiyesiyouyun:before {
+	content: "\fe1a";
+}
+.nc-danger:before {
+	content: "\fe1b";
+}
+.nc-reduce:before {
+	content: "\fe1c";
+}
+.nc-shoudouyun:before {
+	content: "\fe1e";
+}
+.nc-danger-fill:before {
+	content: "\fe59";
+}
+.nc-danger-fill-2:before {
+	content: "\fe62";
+}
+.nc-reduce-fill:before {
+	content: "\fe63";
+}

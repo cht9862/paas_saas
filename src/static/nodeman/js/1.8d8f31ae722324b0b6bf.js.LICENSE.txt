@@ -1,0 +1,8 @@
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <http://feross.org>
+ * @license  MIT
+ */
+
+/*! xlsx.js (C) 2013-present SheetJS -- http://sheetjs.com */

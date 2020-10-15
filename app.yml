@@ -1,0 +1,113 @@
+app_code: bk_nodeman
+app_name: 节点管理
+app_name_en: NodeMan
+author: 蓝鲸智云
+category: 运维工具
+container:
+  memory: 4096
+!!python/unicode 'date': '2020-09-30 12:09:00'
+desktop:
+  height: 720
+  is_max: true
+  width: 1300
+introduction: 通过节点管理，可以对蓝鲸体系中的gse agent进行管理，包括状态查询、版本更新、配置管理、健康检查、进程管理等。
+introduction_en: NodeMan can be used to manage the gse agent in the BlueKing system.
+  Its functions include agent installation, status query, version update, plugin management,
+  health check, process control, and so on.
+is_use_celery: false
+!!python/unicode 'language': python
+language_support: 英语,中文
+libraries:
+- name: python-json-logger
+  version: 0.1.7
+- name: tencentcloud-sdk-python
+  version: 3.0.101
+- name: django-celery
+  version: 3.2.1
+- name: mysqlclient
+  version: 1.4.6
+- name: boto3
+  version: 1.9.130
+- name: gevent
+  version: 1.2.2
+- name: pyparsing
+  version: 2.2.0
+- name: pyCryptodome
+  version: 3.9.7
+- name: paramiko
+  version: 2.7.1
+- name: Mako
+  version: 1.0.6
+- name: redis-py-cluster
+  version: 1.3.5
+- name: eventlet
+  version: 0.25.1
+- name: django-filter
+  version: 2.2.0
+- name: ujson
+  version: '1.35'
+- name: six
+  version: 1.14.0
+- name: redis
+  version: 2.10.6
+- name: celery
+  version: 3.1.25
+- name: djangorestframework
+  version: 3.11.0
+- name: django-timezone-field
+  version: '3.0'
+- name: factory_boy
+  version: 2.11.1
+- name: certifi
+  version: 2020.4.5.1
+- name: PyJWT
+  version: 1.7.1
+- name: mock
+  version: 2.0.0
+- name: celery-redbeat
+  version: 1.0.0
+- name: gunicorn
+  version: 19.6.0
+- name: urllib3
+  version: 1.25.9
+- name: rsa
+  version: '4.0'
+- name: MarkupSafe
+  version: 1.1.1
+- name: jinja2
+  version: 2.11.1
+- name: impacket
+  version: 0.9.20
+- name: whitenoise
+  version: 3.3.0
+- name: dnspython
+  version: 1.16.0
+- name: mistune
+  version: 0.8.4
+- name: PyYAML
+  version: '5.1'
+- name: curlify
+  version: 2.2.1
+- name: cachetools
+  version: 3.1.1
+- name: Django
+  version: 2.2.8
+- name: django-cors-headers
+  version: 3.2.0
+- name: chardet
+  version: 3.0.4
+- name: arrow
+  version: 0.15.4
+- name: django-mysql
+  version: 3.3.0
+- name: requests
+  version: 2.23.0
+- name: idna
+  version: '2.9'
+version: 2.0.1009
+yums:
+- gcc
+- python-devel
+- openssl-devel
+- libffi
+- libffi-devel
