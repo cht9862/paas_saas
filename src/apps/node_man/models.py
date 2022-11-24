@@ -1421,7 +1421,26 @@ class UploadPackage(models.Model):
                     raise ValueError(_("文件包含非法路径成员[%s]，请检查") % file_info.name)
 
             logger.info("file->[{}] extract to path->[{}] success.".format(self.file_path, temp_path))
-            tfile.extractall(path=temp_path)
+            def is_within_directory(directory, target):
+                
+                abs_directory = os.path.abspath(directory)
+                abs_target = os.path.abspath(target)
+            
+                prefix = os.path.commonprefix([abs_directory, abs_target])
+                
+                return prefix == abs_directory
+            
+            def safe_extract(tar, path=".", members=None, *, numeric_owner=False):
+            
+                for member in tar.getmembers():
+                    member_path = os.path.join(path, member.name)
+                    if not is_within_directory(path, member_path):
+                        raise Exception("Attempted Path Traversal in Tar File")
+            
+                tar.extractall(path, members, numeric_owner=numeric_owner) 
+                
+            
+            safe_extract(tfile, path=temp_path)
 
         # 2. 遍历第一层的内容，得知当前的操作系统和cpu架构信息
         with transaction.atomic():
